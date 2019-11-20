@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+    comentaris externs
+-->
+<html lang="en">
+    <head>
+        <title>Títol de la pestanya</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="../css/exercici_formulario.css"/>
+    </head>
+    <body>
+        <p>Curriculum</p>
+<fieldset>
+        <form action="form.html" method="get" enctype="multipart/form-data">
+<h2></h2>
+<fieldset> 
+        <legend>Informacion basica</legend>
+        <label>Nombre:</label><br>
+        <input type="text" id="id_text" name="n_text" value="" placeholder="Pau" required/>
+        <h2></h2>
+        <label>Apellido:</label><br>
+        <input type="text" id="id_text" name="n_text" value="" placeholder="Lasmarias" required/>
+        <h2></h2>
+        <label for="id_number">Altura:</label><br>
+        <input type="number" id="id_number" name="n_number" value="157" placeholder="" required/>
+        <h2></h2>
+        <label for="id_email">Email:</label><br>
+        <input type="email" id="id_email" name="n_email" value="" placeholder="default@default" required/>
+        <h2></h2>
+        <label for="id_date">Fecha de nacimiento:</label><br>
+        <input type="date" id="id_date" name="n_date" value=""/>
+</fieldset>
+<h2></h2>
+<fieldset>
+        <legend>Nacionalidad</legend>
+                <input type="radio" id="id_radio1" name="n_radio" value="a" checked/>Española
+                <input type="radio" id="id_radio2" name="n_radio" value="c"/>Comunitario(UE)
+                <input type="radio" id="id_radio3" name="n_radio" value="g"/>No Comunitario
+</fieldset>
+<h2></h2>
+<fieldset>
+        <legend>Estudios</legend>
+        <label for="id_select">Seeleccciona tus estudios mas altos:</label>
+                <select id="id_select" name="n_select">
+                    <option value="default" selected>Ninguno</option>
+                    <option value="t">ESO</option>
+                    <option value="a">GM</option>
+                    <option value="c">GS</option>
+                    <option value="g">Bachillerato</option>
+                    <option value="g">Universidad</option>
+                </select>
+</fieldset>
+<h2></h2>
+<fieldset>
+        <legend>Idiomas</legend>
+        <label>Selecciona los idiomas que hables:</label>
+        <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" checked/>Catalan
+        <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="c" checked/>Castellano
+        <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="g"/>Ingles
+        <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="t"/>Chino
+</fieldset>
+<h2></h2>
+<fieldset>
+        <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
+        <input type="reset" id="id_reset" name="n_reset" value="Cancelar"/>
+    </fieldset>
+</fieldset>
+</form>
+    </body>
+</html>
