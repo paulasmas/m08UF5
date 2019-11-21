@@ -4,3 +4,42 @@ p{
     color: green;
     font-weight: bold;
 }
+
+.negsub{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.informacionbasica{
+    background-color: salmon;
+}
+.nacionalidad{
+    background-color: rgb(141, 224, 141);
+}
+
+.estudios{
+    background-color: pink;
+}
+
+.idiomas{
+    background-color: rgb(94, 208, 228);
+}
+
+.final{
+    background-color: rgb(161, 161, 161);
+}
+
+.lebelsIB{
+    color: blue;
+    font-style: oblique;
+}
+
+.lebelsN{
+    color: orange;
+    font-style: oblique;
+}
+
+.lebelsI{
+color: red;
+font-style: oblique;
+}
