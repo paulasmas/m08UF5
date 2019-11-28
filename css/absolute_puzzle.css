@@ -1,0 +1,108 @@
+div{
+    margin: 2px;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.negro{ /*usado*/
+    background-color: black;
+    width: 193px;
+    height: 200px;
+    position: absolute;
+    top: 110px;
+}
+
+.negro2{ /*usado*/
+    background-color: black;
+    width: 193px;
+    height: 200px;
+    position: absolute;
+    top: 415px;
+}
+
+.negro3{ 
+    background-color: black;
+    width: 200px;
+    height: 193px;
+    position: absolute;
+    top: 315px;
+    left: 400px;
+}
+
+.verdeoscurolargo{ /*usado*/
+    background-color: green;
+    width: 390px;
+    height: 100px;
+    position: absolute;
+}
+
+.verdeoscurocortoderecha{ /*usado*/
+    background-color: green;
+    width: 200px;
+    height: 95px;
+    position: absolute;
+    top: 110px;
+    left: 400px;
+}
+
+.verdeoscurocortoizquierda{ /*usado*/
+    background-color: green;
+    width: 193px;
+    height: 95px;
+    position: absolute;
+    top: 315px;
+}
+
+.verdeoscurocortoderecha2{
+  background-color: green;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 515px;
+  left: 398px;  
+}
+
+.verdeclarolargo{ /*usado*/
+    background-color: greenyellow;
+    width: 193px;
+    height: 300px;
+    position: absolute;
+    top: 110px;
+    left: 198px;
+}
+
+.verdeclarocortoderecha{ /*usado*/
+    background-color: greenyellow;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 400px;
+}
+
+.verdeclarocortoderecha2{ /*usado*/
+    background-color: greenyellow;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 210px;
+    left: 400px;
+}
+
+.verdeclarocortoderecha3{ /*usado*/
+    background-color: greenyellow;
+    width: 193px;
+    height: 93px;
+    position: absolute;
+    top: 415px;
+    left: 198px;
+}
+
+.verdeclarocortoderecha4{ /*usado*/
+    background-color: greenyellow;
+    width: 193px;
+    height: 100px;
+    position: absolute;
+    top: 515px;
+    left: 198px;
+}

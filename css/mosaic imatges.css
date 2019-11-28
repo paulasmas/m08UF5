@@ -1,0 +1,133 @@
+div{
+    margin: 2px;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+.negro{ /*usado*/
+    width: 193px;
+    height: 200px;
+    position: absolute;
+    top: 110px;
+    background-size: auto;
+    background: url(../imatges/portatil.png);
+    background-repeat: repeat;
+
+}
+
+.negro2{ /*usado*/
+    width: 193px;
+    height: 200px;
+    position: absolute;
+    top: 415px;
+    background-size: auto;
+    background: url(../imatges/bvsj.jpeg);
+    background-repeat: repeat;
+}
+
+.negro3{ 
+    width: 200px;
+    height: 193px;
+    position: absolute;
+    top: 315px;
+    left: 400px;
+    background-size: auto;
+    background: url(../imatges/krilin.jpeg);
+    background-repeat: repeat;
+}
+
+.verdeoscurolargo{ /*usado*/
+    width: 390px;
+    height: 100px;
+    position: absolute;
+    background-size: auto;
+    background: url(../imatges/movil.png);
+    background-repeat: repeat;
+}
+
+.verdeoscurocortoderecha{ /*usado*/
+    width: 200px;
+    height: 95px;
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    background-size: auto;
+    background: url(../imatges/picolo.png);
+    background-repeat: repeat;
+}
+
+.verdeoscurocortoizquierda{ /*usado*/
+    width: 193px;
+    height: 95px;
+    position: absolute;
+    top: 315px;
+    background-size: auto;
+    background: url(../imatges/satan.png);
+    background-repeat: repeat;
+}
+
+.verdeoscurocortoderecha2{
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 515px;
+  left: 398px;  
+  background-size: auto;
+  background: url(../imatges/tv.png);
+  background-repeat: repeat;
+}
+
+.verdeclarolargo{ /*usado*/
+    width: 193px;
+    height: 300px;
+    position: absolute;
+    top: 110px;
+    left: 198px;
+    background-size: auto;
+    background: url(../imatges/videocamara.png);
+    background-repeat: repeat;
+}
+
+.verdeclarocortoderecha{ /*usado*/
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 400px;
+    background-size: auto;
+    background: url(../imatges/foto1.jpeg);
+    background-repeat: repeat;
+}
+
+.verdeclarocortoderecha2{ /*usado*/
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 210px;
+    left: 400px;
+    background-size: auto;
+    background: url(../imatges/foto2.jpeg);
+    background-repeat: repeat;
+}
+
+.verdeclarocortoderecha3{ /*usado*/
+    width: 193px;
+    height: 93px;
+    position: absolute;
+    top: 415px;
+    left: 198px;
+    background-size: auto;
+    background: url(../imatges/foto3.jpeg);
+    background-repeat: repeat;
+}
+
+.verdeclarocortoderecha4{ /*usado*/
+    width: 193px;
+    height: 100px;
+    position: absolute;
+    top: 515px;
+    left: 198px;
+    background-size: auto;
+    background: url(../imatges/foto4.jpg);
+    background-repeat: repeat;
+}
