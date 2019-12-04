@@ -1,0 +1,99 @@
+div{
+    border: 2px solid rgb(235, 0, 243);
+}
+
+#primerdiv{ /* nivel1 */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#goku1{ /* nivel1 */
+    grid-column-start: 3;
+}
+
+#div2{ /* nivel3 */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#termina{ /* nivel3 */
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#div3{ /* nivel7 */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#ejercicio7{ /* nivel7 */
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+
+#div4{ /* nivel10 */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#ejercicio10{ /* nivel10 */
+    grid-column: 4 / 6 
+}
+
+#div5{ /* nivel12 */
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#termina3{ /* nivel12 */
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#view1{ /* nivel12 */
+    grid-row: 3;
+    grid-column: 2; 
+}
+
+#div6{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#view2{
+grid-row: 2;
+grid-column: 2;
+opacity: 0.75;
+}
+
+#goku2{
+    grid-row: 2;
+    grid-column: 2;
+    opacity: 0.25;
+    height: 186px;
+    width: 280px;
+}
+
+#div7{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-row: 50% 50%;
+}
+
+#view3{
+grid-column: 1;
+grid-row: 2;
+}
+
+#goku3{
+grid-column: 2;
+grid-row: 2;
+width: 100%;
+height: 300px;
+}
