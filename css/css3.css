@@ -101,6 +101,7 @@ position: relative;
 {
     background-image: linear-gradient(aqua, red, yellow, black);
     height: 200px;
+    box-shadow: 10px 10px 5px black;
     text-align: center;
     font-size: 35px;
 }
@@ -108,11 +109,87 @@ position: relative;
 #aiuda2
 {
     background-image: linear-gradient(purple 10%, red 33%, yellow 5%, black 90%);
+    box-shadow: 10px 10px 5px gray;
     height: 200px;
 }
 
 /*ejercicio4*/
-h1 {
+h1 
+{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    position: absolute;
+}
+
+#translate
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    transform: translate(50px, 100px);
+
+}
+
+#rotate
+{
+display: inline-block;
+left: 40%;
+width: 100px;
+height: 100px;
+background-color: aqua;
+transform: rotate(5deg)
+}
+
+#scale {
+    display: inline-block;
+    left: 75%;
+    width: 100px;
+    height: 90px;
+    background-color: gray;
+    transform: scale(2, 3);
   }
+
+#transition{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: width 1s;
+    line-height: 50px;
+    text-align: center;
+}
+
+#transition :hover
+{
+    position: relative;
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    left: 50px;
+}
+
+#animations
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: Animation;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes Animation{
+    0%   {background-color: red; left: 0px; top: 0px;}
+    25%  {background-color: greenyellow; left: 200px; top: 0px;}
+    50%  {background-color: yellow; left: 200px; top: 200px;}
+    75%  {background-color: blue; left: 0px; top: 200px;}
+    100% {background-color: red; left: 0px; top: 0px;}
+}
+
+#asdw3q
+{
+column-count: 3;
+column-rule: 1px solid lightblue;
+}
