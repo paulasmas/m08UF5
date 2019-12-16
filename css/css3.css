@@ -1,0 +1,118 @@
+div
+{
+position: relative;
+}
+
+#rcorners1 
+{
+    position: absolute;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcorners2 
+{
+    position: absolute;
+    left: 300px;
+    border-radius: 25px;
+    background: rgb(43, 165, 43);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcorners3 
+{
+    position: absolute;
+    left: 600px;
+    border-radius: 15px 50px;
+    background: rgb(43, 165, 43);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcornersespecial1
+{
+    position: relative;
+    top: 250px;
+    border-radius: 0px 200px 0px 200px;
+    background: rgb(43, 165, 43);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcornersespecial2
+{
+    position: relative;
+    top: 40px;
+    left: 300px;
+    border-radius: 150px 150px 150px 150px;
+    background: rgb(43, 165, 43);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcornersespecial3
+{
+    position: relative;
+    top: -165px;
+    left: 600px;
+    border-radius: 260px 100px 100px 30px;
+    background: rgb(43, 165, 43);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+/*ejercicio2*/
+#rojo1
+{
+    background-color: rgb(250, 95, 95, 0.2);
+}
+#rojo2
+{
+    background-color: rgb(250, 95, 95, 0.4);
+}
+#rojo3 
+{
+    background-color: rgb(250, 95, 95, 0.6);
+}
+
+#rojo4
+{
+    background-color: rgb(250, 95, 95, 0.8);
+}
+
+/*ejercicio3*/
+#aiuda1
+{
+    background-image: linear-gradient(aqua, red, yellow, black);
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#aiuda2
+{
+    background-image: linear-gradient(purple 10%, red 33%, yellow 5%, black 90%);
+    height: 200px;
+}
+
+/*ejercicio4*/
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
