@@ -1,0 +1,155 @@
+table,td,th{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+.tamayoimagen{
+    width: 300px;
+    height: 200px;
+}
+
+/*_*/
+.div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        transform: translate(0px,0px) scale(1);
+        -webkit-transform: translate(0px,0px) scale(1);
+        -moz-transform: translate(0px,0px) scale(1);
+        -o-transform: translate(0px,0px) scale(1);
+        -ms-transform: translate(0px,0px) scale(1);
+        -webkit-transition: all 500ms ease-in-out; /*IE 9*/
+        -moz-transition: all 500ms ease-in-out; /*Firefox*/
+        -ms-transition: all 500ms ease-in-out; /*Safari and Chrome*/ 
+        -o-transition: all 500ms ease-in-out; /*Opera*/    
+    }      
+    .img:hover{
+
+        transform: translate(-50px,-50px) scale(0.5);
+        -webkit-transform: translate(-50px,-50px) scale(0.5);
+        -moz-transform: translate(-50px,-50px) scale(0.5);
+        -o-transform: translate(-50px,-50px) scale(0.5);
+        -ms-transform: translate(-50px,-50px) scale(0.5);
+
+    } 
+/*_*/
+.div-img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-img1.hidden{
+          overflow: hidden;
+      }
+.img1{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;   
+        transform:scale(1.2);
+        -ms-transform:scale(1.2); 
+        -moz-transform:scale(1.2); 
+        -webkit-transform:scale(1.2);  
+        -o-transform:scale(1.2); 
+        -webkit-transition: all 500ms ease-in-out; 
+        -moz-transition: all 500ms ease-in-out; 
+        -ms-transition: all 500ms ease-in-out;        
+        -o-transition: all 500ms ease-in-out; 
+
+    }           
+
+.img1:hover{
+    
+        transform:scale(1);
+        -ms-transform:scale(1); 
+        -moz-transform:scale(1); 
+        -webkit-transform:scale(1); 
+        -o-transform:scale(1); 
+
+}
+/*_*/
+.div-img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    &.hidden2{
+            overflow: hidden;
+        }
+    .img2{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;           
+        transform:translate(0px,0px);
+        -ms-transform:translate(0px,0px); // IE 9 
+        -moz-transform:translate(0px,0px); // Firefox 
+        -webkit-transform:translate(0px,0px); // Safari and Chrome 
+        -o-transform:translate(0px,0px); // Opera 
+        -webkit-transition: all 500ms ease-in-out; // IE 9
+        -moz-transition: all 500ms ease-in-out; // Firefox
+        -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
+        -o-transition: all 500ms ease-in-out; // Opera    
+    }      
+    .img2:hover{
+            transform:translate(0px,-100px);
+            -ms-transform:translate(0px,-100px); // IE 9 
+            -moz-transform:translate(0px,-100px); // Firefox 
+            -webkit-transform:translate(0px,-100px); // Safari and Chrome 
+            -o-transform:translate(0px,-100px); // Opera
+    }
+    
+/*_*/
+.transition{
+  -webkit-transition: all 500ms ease-in-out; // IE 9
+  -moz-transition: all 500ms ease-in-out; // Firefox
+  -ms-transition: all 500ms ease-in-out; // Safari and Chrome 
+  -o-transition: all 500ms ease-in-out; // Opera
+}
+
+.transform(@x,@y,@s){
+  transform: translate(@x,@y) scale(@s);
+  -webkit-transform: translate(@x,@y) scale(@s);
+  -moz-transform: translate(@x,@y) scale(@s);
+  -o-transform: translate(@x,@y) scale(@s);
+  -ms-transform: translate(@x,@y) scale(@s);
+}
+
+.div-img3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .img3{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        .transform(0px,0px,1);
+        .transition;    
+    }      
+    .text{
+        font-family: 'Open Sans';
+        position:relative;
+        z-index: -1;
+        display:block;
+        bottom:20px;
+        width:100%;
+        text-align:center;
+        .transform(0px,0px,1);
+        .transition;
+    }
+    .img3:hover{
+            .transform(0px,-30px,0.5);
+            border-radius: 50%;
+        }
+        .text{
+            .transform(0px,0px,2);
+          }
+    } 
