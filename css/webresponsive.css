@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+font-size: 100%;
+margin: 20px;
+font-size: 30px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+#div1{
+    background-color: greenyellow;
+}
+
+#div2{
+    background-color: aquamarine;
+    float: left;
+    width: 70%;
+}
+
+#div3{
+    background-color: peru;
+    float: left;
+    width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    #div2{
+        width: 100%;
+        background-color: red;
+    }
+    
+    #div3{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+}/*cierre de @media screen*/

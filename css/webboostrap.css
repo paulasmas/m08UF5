@@ -1,0 +1,36 @@
+.div1{
+    background-color: rgb(3, 3, 192);
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color: aquamarine;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.colizqui{
+    background-color: pink;
+}
+
+.colderecha{
+    background-color: peru;
+}
+
+.columnaazul{
+    background-color: aquamarine;
+}
+
+.columnanaranja{
+    background-color: rgb(241, 241, 110);
+}
+
+.divpie{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
